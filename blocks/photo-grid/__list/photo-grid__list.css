@@ -3,9 +3,10 @@
   max-width: 90%;
   margin: 0 auto;
   padding: 0;
-  grid-template-columns: repeat(2,1fr);
-  gap: 110px 50px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 50px;
 }
+
 
 @media screen and (max-width:480px) {
   .photo-grid__list {

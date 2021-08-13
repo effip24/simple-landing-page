@@ -1,4 +1,9 @@
 .photo-grid__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 20px 0;
   list-style: none;
   transition: opacity .4s linear;
 }
