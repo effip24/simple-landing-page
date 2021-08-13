@@ -1,0 +1,7 @@
+.photo-grid__item {
+  list-style: none;
+  transition: opacity .4s linear;
+}
+.photo-grid__item:hover {
+  opacity: .6;
+}

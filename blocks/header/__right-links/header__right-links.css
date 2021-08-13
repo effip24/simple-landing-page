@@ -1,0 +1,16 @@
+.header__right-links {
+  display: flex;
+  list-style: none;
+  column-gap: 38px;
+  margin: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .header__right-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px 0;
+    padding: 0;
+  }
+}

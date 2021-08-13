@@ -1,0 +1,11 @@
+.footer__song-name {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+  .footer__song-name {
+    font-size: 12px;
+  }
+}

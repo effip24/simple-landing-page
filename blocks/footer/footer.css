@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  min-height: 35vh;
+  margin: 200px auto 0 auto;
+  padding-bottom: 100px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 690px) {
+  .footer {
+    flex-direction: column;
+  }
+}

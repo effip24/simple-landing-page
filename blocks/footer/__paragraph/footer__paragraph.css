@@ -1,0 +1,12 @@
+.footer__paragraph {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+  .footer__paragraph {
+    font-size: 15px;
+  }
+}

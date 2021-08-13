@@ -1,0 +1,11 @@
+.footer__reg {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+  .footer__reg {
+    font-size: 12px;
+  }
+}

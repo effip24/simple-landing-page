@@ -1,0 +1,26 @@
+.header__icon {
+  position: absolute;
+  bottom: 30px;
+  font-size: 34px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  transition: opacity 0.4s linear;
+}
+.header__icon:hover {
+  opacity: .6;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

@@ -1,0 +1,7 @@
+.about__link {
+  color: #0E0E0E;
+  transition: opacity .4s linear;
+}
+.about__link:hover {
+  opacity: .6;
+}

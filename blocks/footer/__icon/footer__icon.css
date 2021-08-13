@@ -1,0 +1,9 @@
+.footer__icon {
+  transition: opacity .4s linear;
+  cursor: pointer;
+  text-decoration: none;
+  color: #0E0E0E;
+}
+.footer__icon:hover {
+  opacity: .6;
+}

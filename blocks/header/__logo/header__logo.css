@@ -1,0 +1,25 @@
+.header__logo {
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+  .header__logo {
+    top: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__logo {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__logo {
+    max-width: 220px;
+    top: 50%;
+    margin: 0 auto;
+  }
+}
