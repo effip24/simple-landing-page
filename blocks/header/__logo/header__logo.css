@@ -19,7 +19,7 @@
 @media screen and (max-width: 480px) {
   .header__logo {
     max-width: 220px;
-    top: 50%;
+    top: 40%;
     margin: 0 auto;
   }
 }

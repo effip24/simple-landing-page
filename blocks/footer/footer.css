@@ -13,3 +13,8 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 390px) {
+  .footer {
+    gap: 40px 0;
+  }
+}
