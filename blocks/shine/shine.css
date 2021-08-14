@@ -3,12 +3,6 @@
   text-align: center;
   font-family: sans-serif;
   text-transform: uppercase;
-  background: linear-gradient(0, #000, #000, #000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-repeat: no-repeat;
-  background-size: 80%;
   animation: shine 11s linear infinite;
   position: relative;
 }
