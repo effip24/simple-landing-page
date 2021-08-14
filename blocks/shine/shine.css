@@ -1,7 +1,7 @@
 .shine
 {
   text-align: center;
-  font-family: Hack, sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   background: linear-gradient(0, #000, #000, #000);
   -webkit-background-clip: text;
@@ -13,7 +13,6 @@
   position: relative;
 }
 
-    
 @keyframes shine {
   0% {
     background-position-x: -500%;

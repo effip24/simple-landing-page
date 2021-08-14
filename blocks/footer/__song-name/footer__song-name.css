@@ -8,3 +8,8 @@
     font-size: 12px;
   }
 }
+@media screen and (max-width: 800px) {
+  .footer__song-name {
+    animation: none;
+  }
+}
