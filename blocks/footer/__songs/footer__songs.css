@@ -1,6 +1,5 @@
 .footer__songs {
   display: flex;
-  min-height: 5vh;
   align-items: flex-end;
 }
 
