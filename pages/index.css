@@ -3,7 +3,7 @@
 @import url(../blocks/page/page.css);
 
 /* global imports */
-@import url(../blocks/shine/shine.css);
+@import url(../blocks/scroll/scroll.css);
 
 /* imports for header */
 @import url(../blocks/header/header.css);
@@ -49,4 +49,5 @@
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__songs/footer__songs.css);
 @import url(../blocks/footer/__song/footer__song.css);
+@import url(../blocks/footer/__song-name-wrap/footer__song-name-wrap.css);
 @import url(../blocks/footer/__song-name/footer__song-name.css);

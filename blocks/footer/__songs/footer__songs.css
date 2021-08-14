@@ -1,6 +1,8 @@
 .footer__songs {
   display: flex;
   align-items: flex-end;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* Media Queries */
