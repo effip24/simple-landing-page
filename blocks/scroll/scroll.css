@@ -2,18 +2,11 @@
 {
   /* animation properties */
   overflow: hidden;
-  animation: scrolling 10s linear infinite;
+  animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
-@keyframes scrolling {
-  0% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(0);
-  }
+@keyframes myAnim {
   100% {
-    transform: translateX(100%);
+    clip-path: inset(0 0 0 0);
   }
 }
-

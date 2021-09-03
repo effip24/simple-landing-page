@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/protest.css);
 @import url(../blocks/page/page.css);
 
 /* global imports */
@@ -34,6 +33,13 @@
 @import url(../blocks/journal/journal.css);
 @import url(../blocks/journal/__title/journal__title.css);
 @import url(../blocks/journal/__subtitle/journal__subtitle.css);
+
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__image/popup__image.css);
 
 /* imports for footer */
 @import url(../blocks/footer/footer.css);
