@@ -3,3 +3,7 @@
   max-height: 70%;
   cursor: pointer;
 }
+.photo-grid__image:hover {
+  opacity: .6;
+  animation: my 2s ease 0s 1 normal forwards;
+}
